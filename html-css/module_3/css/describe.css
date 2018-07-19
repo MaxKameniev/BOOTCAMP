@@ -1,0 +1,82 @@
+
+.common {
+    width: 900px;
+    margin: auto;
+}
+
+.navi {
+    width: 550px;
+    padding: 75px 0 90px;
+    margin: auto;
+
+}
+
+.list {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 70px;
+}
+
+.list:hover {
+    color: #6cc2f7;
+}
+
+.main {
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 130px;
+    font-size: 0px;
+    }
+
+.main:nth-child(2n+1) {
+    margin-right: 55px;
+    }
+
+.main:nth-last-child(-n+2) {
+    margin-bottom: 90px;
+    }
+
+.photo {
+    width: 420px;
+    height: 280px;
+    margin-bottom: 30px;
+}
+
+.cat {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.click {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 21px 34px;
+    border: 1px solid #000000;
+    display: block;
+    margin: 0px auto 22px;
+}
