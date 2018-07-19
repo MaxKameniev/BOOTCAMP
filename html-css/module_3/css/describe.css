@@ -2,13 +2,16 @@
 .common {
     width: 900px;
     margin: auto;
+    font-size: 0px;
 }
 
 .navi {
-    width: 550px;
-    padding: 75px 0 90px;
-    margin: auto;
+    margin: 75px 0 90px;
+}
 
+.navi-blc {
+    width: 550px;
+    margin: auto;
 }
 
 .list {
@@ -32,11 +35,11 @@
     display: inline-block;
     width: 420px;
     margin-bottom: 130px;
-    font-size: 0px;
+    
     }
 
 .main:nth-child(2n+1) {
-    margin-right: 55px;
+    margin-right: 60px;
     }
 
 .main:nth-last-child(-n+2) {
