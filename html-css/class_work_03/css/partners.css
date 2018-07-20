@@ -1,0 +1,41 @@
+.wrapper-blue {
+    background-color: #50c3af;
+}
+.partners {
+    padding: 53px 0 75px;
+}
+
+.title-white {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.partners-list-item {
+    float: left;
+    margin-right: 60px;
+}
+
+.partners-list-item:last-child {
+    margin-right: 0;    
+}
+
+.partners-list-item:nth-last-child(2) {
+    margin-right: 50px;
+}
+
+.title-white::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/star_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 17px;
+}
+
+

@@ -1,0 +1,38 @@
+.contact {
+    padding: 70px 0 65px;
+}
+
+.contact-card {
+    width: 250px;
+    float: left;
+    margin-right: 80px;
+}
+.contact-card:last-child {
+    margin-right: 0;
+}
+
+.title-send::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/plane_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.title-pencil::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/pen_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 15px;
+}

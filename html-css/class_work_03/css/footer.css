@@ -1,0 +1,45 @@
+.footer {
+    padding: 25px 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #c8c9cb;
+    float: left;
+}
+
+.elena {
+    color: #787b80;
+}
+
+.social-link {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 15px;
+    height: 15px
+}
+
+.social {
+    float: right;
+}
+
+.social-item {
+    float: right;
+    margin-right: 20px;
+}
+
+.google {
+    background-image: url(../img/gog.png);
+}
+
+.twitter {
+    background-image: url(../img/twit.png);
+}
+
+.facebook {
+    background-image: url(../img/face.png);
+    width: 8px;
+}

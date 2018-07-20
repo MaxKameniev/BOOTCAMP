@@ -1,0 +1,58 @@
+.wrapper-light {
+    background-color: #f5f5f5;
+}
+
+.template {
+    padding: 65px 0 75px;
+    font-size: 0;
+}
+
+.template-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 265px;
+    margin-right: 60px;
+}
+
+.template-card:last-child {
+    margin-right: 0;
+}
+
+.template-img {
+    height: 170px;
+    margin-bottom: 40px;
+}
+
+.title-left {
+    width: 100%;
+}
+.text-margin {
+    margin-bottom: 35px;
+}
+
+.btn {
+    font-size: 14   px;
+    color: #f5f5f5;
+    padding: 10px 18px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    background-color: #50c3af;
+    transition: 1s;
+
+}
+
+.btn:hover {
+    border: 2px solid #50c3af;
+    background-color: #fff;
+    color: #50c3af;
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+

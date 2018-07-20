@@ -1,0 +1,22 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import "header.css";
+@import "describe.css";
+@import "template.css";
+@import "support.css";
+@import "features.css";
+@import "contact.css";
+@import "just.css";
+@import "partners.css";
+@import "footer.css";
+/* font-family: 'PT Sans', sans-serif; */
+
+
+.template-card {
+    display: inline-block;
+}
+
+.template-img {
+    width: 265px;
+}
+

@@ -1,0 +1,34 @@
+.features {
+    
+    font-size: 0px;
+    padding: 65px 0 65px;
+}
+
+.features-cart {
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+    margin-right: 25px;
+
+}
+
+.features-cart:last-child {
+    margin-right: 0;
+}
+
+.features-img {
+    width: 180px;
+    margin-bottom: 40px;
+}
+
+.features-link {
+    display: block;
+    color: #60c7b4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.features-link::after {
+    content: '>';
+    margin-left: 5px;
+}

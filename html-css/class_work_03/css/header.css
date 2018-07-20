@@ -1,0 +1,80 @@
+.wrapper-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../img/bgrd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.header {
+    padding: 70px 0 120px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.logo {
+    font-size: 52pt;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 45px;
+    display: block;    
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 38px;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.navigation {
+    margin-bottom: 80px;
+}
+
+.main-title {
+    font-size: 53pt;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.header-text::before, .header-text::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    background-color: rgba(255,255,255,0.24);
+    vertical-align: middle;
+}
+
+.header-text::before {
+    margin-right: 30px;
+}
+
+.header-text::after {
+    margin-left: 30px;
+}
+
+.header-text {
+    font-size: 15pt;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.header-btn {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    background-color: #50c3af;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 40px;
+}
+

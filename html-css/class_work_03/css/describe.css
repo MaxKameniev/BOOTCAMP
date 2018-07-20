@@ -1,0 +1,52 @@
+.wrapper-grey {
+    background: #eeeeef;   
+}
+
+.container {
+    width: 590px;
+    margin: auto;
+}
+
+.describe {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-style: 0;
+    text-align: center;
+
+}
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+}
+
+.card:last-child {
+    margin-right: 0px;
+}
+
+.title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #384048;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #e2e3e4;
+    margin: 0 auto 25px;
+    width: 135px;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto 32px;
+    width: 43px;
+    height: 37px;
+}
+
+.text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    flood-color: #787b80;
+}
+

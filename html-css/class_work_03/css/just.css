@@ -1,0 +1,14 @@
+.just {
+    padding: 60px 0;
+}
+.just-card {
+    width: 280px;
+}
+
+.just-img, .just-card {
+    float: left;
+}
+
+.just-img {
+    margin-right: 30px;
+}

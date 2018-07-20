@@ -1,0 +1,19 @@
+.btn-support {
+    background-color: #d2d5da;
+}
+
+.support {
+    padding: 65px 0 70px;}
+
+.support-title::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/ic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 17px;
+}
