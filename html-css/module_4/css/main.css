@@ -1,0 +1,26 @@
+.main-box {
+    width: 1100px;
+    margin: auto;
+    font-size: 0px;
+}
+
+
+.title-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #656262;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.title-name::after {
+    content: '';
+    display: block;
+    width: 165px;
+    height: 6px;
+    background-color: rgba(26,188,156,1);
+    vertical-align: middle;
+    margin: 30px auto 0;
+}
