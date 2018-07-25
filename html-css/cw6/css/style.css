@@ -1,0 +1,28 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+/* font-family: 'PT Sans', sans-serif; */
+
+
+#video_background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+article {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+   font-size: 24px;
+   text-transform: uppercase;
+}

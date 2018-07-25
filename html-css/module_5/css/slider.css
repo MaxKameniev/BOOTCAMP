@@ -1,0 +1,56 @@
+.slider {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slider_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.slider-list {
+    padding: 215px 0 260px;
+    widows: 1110px;
+    margin: auto;
+    text-align: center;
+}
+
+.slider-text {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider-list-item {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.slider-comment {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.btn-slider {
+    display: inline-block;
+    border: none;
+    padding: 30px 40px;
+    background-color: #1abc9c;
+    color: #fff;
+
+}
+
+.left {
+    margin-right: 80px;
+}
+
+.right {
+    margin-left: 80px;
+}
+
+.btn-slider:hover {
+opacity: 0.6;
+}

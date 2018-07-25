@@ -1,0 +1,9 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto');
+@import "header.css";
+@import "slider.css";
+@import "main.css";
+@import "footer.css";
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */

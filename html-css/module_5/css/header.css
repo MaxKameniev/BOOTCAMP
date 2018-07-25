@@ -1,0 +1,40 @@
+.header {
+    width: 1110px;
+    margin: auto;
+    padding: 40px 0 100px;
+
+}
+.logo {
+    float: left;
+}
+
+.logo-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #656262;
+    text-transform: uppercase;
+}
+
+.logo-name::first-letter {
+    color: #1abc9c;
+}
+
+.nav {
+    float: right;
+}
+
+.list-menu {
+    display: inline-block;
+    margin-right: 30px;
+}
+ 
+.list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #656262;
+    text-transform: uppercase;
+}
+
+.list:hover {
+    color: #1abc9c;
+}

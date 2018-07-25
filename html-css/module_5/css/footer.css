@@ -1,0 +1,23 @@
+.footer {
+  
+    background-color: #323232;
+}
+
+.wrapper-footer {
+    width: 1110px;
+    padding: 40px 0 40px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center
+}
+
+.footer-rights {
+    display: inline-block;
+    color: #fff;
+}
+
+.footer-design {
+    display: inline-block;
+    color: #46bfa9;
+}
