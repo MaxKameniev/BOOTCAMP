@@ -19,5 +19,5 @@
 
 .footer-design {
     display: inline-block;
-    color: #46bfa9;
+    color: var(--style-color);
 }

@@ -1,0 +1,60 @@
+.main {
+    width: 930px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 0.8rem;
+    color: var(--grey-text);
+    display: block;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.main-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-icon {
+    color: var(--style-color);
+    font-size: 30px;
+    border: 3px solid var(--style-color);
+    width: 70px;
+	height: 70px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.main-card {
+    width: 30%;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: var(--grey-text);
+    margin-bottom: 110px;
+}

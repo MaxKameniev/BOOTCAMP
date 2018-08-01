@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+.logo::before {
+    display: inline-block;
+    content: "M";
+    color: var(--style-color);
+}
+
+.list {
+    display: flex;
+}
+
+.list-item {
+    border-radius: 10px;
+    margin-right: 8px;
+    vertical-align: middle;
+
+}
+
+.item-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: var(--style-color);
+    border-radius: 10px;
+
+}

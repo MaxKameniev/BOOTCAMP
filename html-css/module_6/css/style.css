@@ -1,0 +1,15 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,400,500,700,900');
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+    --style-color: #95e1d3;
+    --hover-color: #f38181;
+    --h2-color: #333333;
+    --grey-text: #7a7a7a;
+}

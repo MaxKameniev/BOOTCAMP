@@ -13,7 +13,7 @@
 .title-name {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
-    color: #656262;
+    color: var(--font-color);
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
@@ -26,7 +26,7 @@
     display: block;
     width: 165px;
     height: 6px;
-    background-color: rgba(26,188,156,1);
+    background-color: var(--style-color);
     vertical-align: middle;
     margin: 30px auto 0;
 }
@@ -51,11 +51,11 @@
 }
 
 .p-link:hover .product-name{
-    background-color: #1abc9c;
+    background-color: var(--style-color);
 }
 
 .p-link:hover .product-price{
-    background-color: #7fd9c7;
+    background-color: var(--pp-style-color);
 }
 
 .p-link:hover .hb {
@@ -85,7 +85,7 @@
 }
 
 .hover-icon:hover {
-    background-color: #1abc9c;
+    background-color: var(--style-color);
     border: 1px solid transparent;
 }
 

@@ -1,0 +1,38 @@
+
+.header {
+    width: 930px;
+    margin: 45px auto 130px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-name {
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+    color: var(--style-color);
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: flex-end;
+}
+
+.list-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-right: 40px;
+}
+
+.list-menu:hover a {
+    color: var(--style-color);
+}

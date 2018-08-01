@@ -11,12 +11,12 @@
 .logo-name {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    color: #656262;
+    color: var(--font-color);
     text-transform: uppercase;
 }
 
 .logo-name::first-letter {
-    color: #1abc9c;
+    color: var(--style-color);
 }
 
 .nav {
@@ -36,5 +36,5 @@
 }
 
 .list:hover {
-    color: #1abc9c;
+    color: var(--style-color);
 }

@@ -1,0 +1,13 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+/* font-family: 'Oswald', sans-serif; */
+
+:root {
+    --style-color: #35a850;
+}
+
+

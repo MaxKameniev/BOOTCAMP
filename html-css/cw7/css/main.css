@@ -1,0 +1,40 @@
+.main {
+    width: 100%;
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.article-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.main-article-img img {
+    width: 400px;
+}
+
+.main-article {
+    flex: 0 0 400px;
+}
+
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.news-img {
+    width: 200px;
+    height: 200px;
+}
+
+.main-article-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-shadow: 1px 1px
+
+}

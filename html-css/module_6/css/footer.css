@@ -1,0 +1,45 @@
+.footer {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border-top: 2px solid #e5e5e5;
+    align-items: center;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--h2-color);
+}
+
+.copyright span {
+    color: var(--hover-color);
+}
+
+.sub-email {
+    width: 230px;
+    height: 50px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+}
+
+.sub-btn {
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: var(--style-color);
+    border: 0;
+}

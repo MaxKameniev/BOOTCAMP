@@ -1,0 +1,92 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #eee;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.1), -30px 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #fff;
+}
+
+.header-inner {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header-subtitle {
+    color: #888;
+}
+
+.header-btn, input[type="submit"] {
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    display: block;
+    margin: 2rem 0 0;
+    color: #333;
+    transition: background 3s ease, color 5s ease;
+}
+
+.header-btn:hover, input[type="submit"]:hover {
+    background: #f4f4f4;
+    color: blue;
+}
+
+.header-img {
+    background: url(https://images.unsplash.com/photo-1512790182412-b19e6d62bc39);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+}
+
+.portfolio-title, .footer-title {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.card-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+}

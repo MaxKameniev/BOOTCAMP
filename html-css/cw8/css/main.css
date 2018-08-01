@@ -1,0 +1,152 @@
+
+
+.main {
+    padding-top: 40px;
+    font-size: 0;
+}
+
+.section2 {
+    position: relative;
+    /*display: flex;*/
+    text-align: center;
+    vertical-align: top;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    color: #565555;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.click {
+    width: 450px;
+    height: 50px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    margin-bottom: 75px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #eeeeee;
+    background-color: #c1bfbf;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 72px;
+    left: 515px;
+}
+
+.submit {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8100;
+    /*padding: 10px 28px;*/
+    width: 210px;
+    height: 50px;
+}
+
+.card-box {
+    width: 218px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+}
+.card {
+    margin: 10px;
+}
+
+.card-img {
+    margin-bottom: 17px;
+    width: 195px;
+    position: relative;
+}
+
+.card-img::before {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00e';
+    font-size: 35px;
+    font-weight: 600;
+    display: block;
+    width: 28px;
+    height: 28px;
+    color: #eee;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+}
+
+.card-img:hover::before {
+    opacity: 1;
+}
+
+.photo-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #979393;
+    border-bottom: 1px solid #e0dfdf;
+    padding-bottom: 10px;
+}
+
+.photo-name::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f005";
+    font-size: 20px;
+    color: #ff8100;
+    margin-left: 20px;
+    /* background-color: #ff8100;
+    border-radius: 50%; */
+  
+}
+
+.share {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #979393;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.social {
+    display: inline-block;
+}
+
+.soc-icon {
+    font-size: 25px;
+    margin-right: 3px;
+    color: #c1bfbf;
+}
+
+.soc-icon:hover {
+    color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+

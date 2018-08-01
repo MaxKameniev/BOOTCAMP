@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "fonts.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+     :root {
+        --style-color: #fed44c;
+        --grey-text: #777777;
+    }

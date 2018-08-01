@@ -7,3 +7,9 @@
 
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+
+:root {
+    --style-color: #1abc9c;
+    --pp-style-color: #7fd9c7;
+    --font-color: #656262;
+}

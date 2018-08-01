@@ -1,0 +1,47 @@
+.header {
+    width: 1200px;
+    margin: auto;
+    padding: 30px 0 100px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.logo-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: var(--style-color);
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.list-menu {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.list-menu:last-child {
+    margin-right: 0;
+}
+ 
+.list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--style-color);
+    text-transform: uppercase;
+}
+
+.list:hover {
+    color: var(--hover-color);
+    border-bottom: 3px solid var(--hover-color);
+    padding-bottom: 10px;
+}
