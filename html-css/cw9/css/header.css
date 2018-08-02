@@ -30,7 +30,7 @@ main {
     background-color: #fff;
 }
 
-.header-inner {
+/* .header-inner {
     display: flex;
     flex: 0 1 40vw;
     height: 50vh;
@@ -40,6 +40,13 @@ main {
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 1rem;
+} */
+
+.header-inner {
+    display: flex
+    height: 50vh;
+    flex-direction: column;
+    text-align: center;
 }
 
 .header-subtitle {

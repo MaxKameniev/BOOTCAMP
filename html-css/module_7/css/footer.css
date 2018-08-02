@@ -56,10 +56,10 @@
     cursor: pointer;
 }
 
-input:valid {
-    outline: rgba(0, 255, 0, 1);
+.contact-item:valid:hover {
+    outline: 1px solid rgba(0, 255, 0, 0.8);
 }
 
-input:invalid {
-    outline: rgba(255, 0, 0, 1);
+.contact-item:invalid:hover {
+    outline: 1px solid rgba(255, 0, 0, 0.8);
 }
