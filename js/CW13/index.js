@@ -27,8 +27,15 @@ let seconds = Math.floor((timer/1000)%60);
 let minutes = Math.floor((timer/1000/60)%60);
 let hours = Math.floor((timer/1000/60/60)%60);
 let days = Math.floor(timer/1000/60/60/24);
-document.querySelector('.days').textContent = days;
-document.querySelector('.hours').textContent = hours;
-document.querySelector('.minutes').textContent = minutes;
-document.querySelector('.seconds').textContent = seconds;
+
+let pdays = document.querySelector('.days');
+let pHours = document.querySelector('.hours');
+let pMin = document.querySelector('.minutes');
+let pSec = document.querySelector('.seconds');
+
+
+pdays.textContent = days;
+pHours.textContent = hours < 10 ? `0${hours}` : `${hours}`;
+pMin.textContent = minutes < 10 ? `0${minutes}` : `${minutes}`;
+pSec.textContent = seconds < 10 ? `0${seconds}` : `${seconds}`;
 }, 1000);
