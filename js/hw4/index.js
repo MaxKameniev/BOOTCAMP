@@ -46,7 +46,7 @@ Cashier.prototype.getCustomerMoney = function(value) {
 } 
 
 Cashier.prototype.countTotalPrice = function(order) {
-  return Object.keys(order).map(el => order[el] * products[el]).reduce((acc, el) => el+acc);
+  return Object.keys(order).reduce((acc, el) =>order[el]*products[el]+acc);
 }
 
 Cashier.prototype.countChange = function(totalPrice) {
